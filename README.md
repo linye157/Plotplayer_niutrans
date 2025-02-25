@@ -3,6 +3,7 @@
 
 ## 起因
 在使用Plotplayer看视频的时候可以使用实时字幕翻译功能，但是默认的翻译引擎都需要付费API，想到小牛翻译为东北大学学生免费提供API，所以按照其他翻译引擎的配置方法，配置了小牛翻译。
+(创建有声字幕教程[点击此处](https://blog.csdn.net/duke_ding2/article/details/144973709))
 
 ## 使用方法(需要在校园网环境下进行或者使用校园网VPN)
 1. 下载本项目中的'配置文件'的两个文件。
@@ -12,7 +13,7 @@
 ![image](g.png)
 4. 打开`SubtitleTranslate - XiaoNiu.as`文件，将第143行的'此处替换为你的APIkey'替换为你的小牛翻译APIkey。'(因为在PlotPlayer输入APIKEY显示用户不存在，于是直接在代码中填入自己的APIKEY直接一劳永逸，小牛翻译APIKEY获取链接[点击这里](https://trans.neu.edu.cn/#/api)，如下图所示)
 ![image](e.png)
-1. 重启PlotPlayer，然后按照第二步的方法打开翻译引擎配置文件夹，选择小牛翻译引擎，源语言和目标语言，然后测试，测试成功如下图所示。
+5. 重启PlotPlayer，然后按照第二步的方法打开翻译引擎配置文件夹，选择小牛翻译引擎，源语言和目标语言，然后测试，测试成功如下图所示。
 ![image](f.png)
-1. 最终显示效果如下图所示(第一行为小牛翻译翻译结果，第二行为音频提取的转换字幕，第三行为嵌入视频的繁体字幕，具体参照链接[点击此处](https://blog.csdn.net/duke_ding2/article/details/144973709))
+6. 最终显示效果如下图所示(第一行为小牛翻译翻译结果，第二行为音频提取的转换字幕，第三行为嵌入视频的繁体字幕，具体参照链接[点击此处](https://blog.csdn.net/duke_ding2/article/details/144973709))
 ![image](b.png)
