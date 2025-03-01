@@ -20,5 +20,5 @@
 
 
 ## 注意事项
-`SubtitleTranslate - XiaoNiu.as`文件中的繁体中文缩写有误，经过查找[小牛翻译API开发文档](https://niutrans.com/documents/contents/trans_json#8)中的语言缩写，繁体中文应该为`cht`，在Plotplayer中选择如下图所示。
+`SubtitleTranslate - XiaoNiu.as`文件中的繁体中文缩写有误(目前已改正)，经过查找[小牛翻译API开发文档](https://niutrans.com/documents/contents/trans_json#8)中的语言缩写，繁体中文应该为`cht`，在Plotplayer中选择如下图所示。
 ![image](h.png)
