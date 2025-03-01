@@ -5,7 +5,7 @@ string UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 array<string> LangTable = 
 {
     "af", "sq", "am", "ar", "hy", "az", "eu", "be", "bn", "bs", "bg", "my", "ca", "ceb", "ny",
-    "zh", "zh-CN", "zh-TW", "co", "hr", "cs", "da", "nl", "en", "eo", "et", "tl", "fi", "fr",
+    "zh", "cht", "co", "hr", "cs", "da", "nl", "en", "eo", "et", "tl", "fi", "fr",
     "fy", "gl", "ka", "de", "el", "gu", "ht", "ha", "haw", "iw", "hi", "hmn", "hu", "is", "ig",
     "id", "ga", "it", "ja", "jw", "kn", "kk", "km", "ko", "ku", "ky", "lo", "la", "lv", "lt",
     "lb", "mk", "ms", "mg", "ml", "mt", "mi", "mr", "mn", "my", "ne", "no", "ps", "fa", "pl",
@@ -140,7 +140,7 @@ string Translate(string Text, string &in SrcLang, string &in DstLang)
 
     // Construct the API URL with the API key
     //string url = "https://trans.neu.edu.cn/niutrans/textTranslation?apikey=" + api_key;
-	string url = "https://trans.neu.edu.cn/niutrans/textTranslation?apikey=此处替换为你的APIkey"; 
+	string url = "https://trans.neu.edu.cn/niutrans/textTranslation?apikey=b18352607b8cb0e9dfe51e26b8853482" ;
 
     // Escape the text for JSON
     string escapedText = Text;

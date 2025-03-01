@@ -17,3 +17,8 @@
 ![image](f.png)
 6. 最终显示效果如下图所示(第一行为小牛翻译翻译结果，第二行为音频提取的转换字幕，第三行为嵌入视频的繁体字幕，具体参照链接[点击此处](https://blog.csdn.net/duke_ding2/article/details/144973709))
 ![image](b.png)
+
+
+## 注意事项
+`SubtitleTranslate - XiaoNiu.as`文件中的繁体中文缩写有误，经过查找[小牛翻译API开发文档](https://niutrans.com/documents/contents/trans_json#8)中的语言缩写，繁体中文应该为`cht`，在Plotplayer中选择如下图所示。
+![image](h.png)
